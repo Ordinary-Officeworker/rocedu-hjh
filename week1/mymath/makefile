@@ -1,0 +1,2 @@
+testmymath : src/20181223main.c src/20181223add.c src/20181223sub.c src/20181223mul.c src/20181223div.c
+	gcc src/20181223main.c src/20181223add.c src/20181223sub.c src/20181223mul.c src/20181223div.c -o testmymath -Iinclude -Llib -l20181223main
